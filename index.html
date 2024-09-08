@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otaku Covers</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/spinners/spinner.css" />
+    <link rel="stylesheet" href="styles/spinners/cube-spinner.css" />
+    <link rel="stylesheet" href="styles/popular-style.css" />
+    <link rel="stylesheet" href="styles/rating-circle/circle-bar.css" />
+    <link rel="stylesheet" href="styles/spinners/searching-loader.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <span class="search-loader" id="searching"></span>
+
+    <div id="loader-fullscreen">
+      <div class="loading">
+        <span class="loader" id="loader"></span>
+      </div>
+    </div>
+
+    <header>
+      <h1>Otaku Covers</h1>
+      <div class="search-bar">
+        <input
+          id="input-element"
+          placeholder="Search Anime e.g. One Piece"
+          type="text"
+        /><button id="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-search"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- POPULAR ANIME SECTION -->
+    <section id="popular-anime-section">
+      <h3>■ Top Animes <i style="font-size: small">by rating</i></h3>
+
+      <div class="popular-anime-grid" id="popular-anime-container">
+        <div class="cube-spinner-container" id="cube-spinner">
+          <div class="sk-cube-grid" id="cube-spinner">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      document.onreadystatechange = function () {
+        if (
+          document.readyState == "loaded" ||
+          document.readyState == "complete"
+        )
+          alert(
+            "NOTE!!!!!! full of bugs \n \n If the website acting crazy you can try to remove adblocker \n or go back to ur mom and cry. \n\n If it load too long please go back to home or check your internet :)"
+          );
+      };
+    </script>
+
+    <script src="scripts/get-popular-anime.js"></script>
+    <script src="scripts/rating-circle/circle-bar.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
