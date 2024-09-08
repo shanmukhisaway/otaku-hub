@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474747;
+  font-family: "Sora", sans-serif;
+}
+
+/* ANIME MAIN CONTAINER */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  min-height: 100vh;
+  background-color: #f2e6b1;
+}
+
+strong {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ANIME TITLE AND YEAR CONTAINER */
+
+.anime-title-container {
+  margin-top: 1rem;
+}
+
+.anime-description {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+  text-align: center;
+}
+.anime-season {
+  font-size: 0.8rem;
+}
+
+.anime-title-container h2 {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ANIME TEXT OR INFORMATIONS */
+.anime-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+/* ANIME IMAGE */
+
+.anime-cover-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.anime-cover-container img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#more {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+  .anime-cover-container {
+    width: 70%;
+  }
+}
+/* @media (min-width: 768px) {
+  main {
+    margin: 0 30%;
+    
+  }
+} */
+
+@media (min-width: 1020px) {
+  .anime-cover-container {
+    width: 70%;
+  }
+  main {
+    border: 1px solid #000000;
+    margin: 10px 35%;
+    border-radius: 5px;
+  }
+}

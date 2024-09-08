@@ -1,0 +1,22 @@
+.pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-container span{
+    padding: 1rem;
+}
+#next-btn svg, #prev-btn svg {
+    fill: #00652f;
+    vertical-align: middle;
+    
+}
+#next-btn, #prev-btn  {
+    background-color: #fee15e;
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+#prev-btn:hover,
+#next-btn:hover {
+  scale: 1.2;
+}
