@@ -155,7 +155,7 @@ function generateSearchHTML(resultItems) {
   </div>
 </div>
     <header>
-      <h1>Otaku Covers</h1>
+      <h1>Otaku Hub</h1>
 
       <div class="search-bar">
         <input
