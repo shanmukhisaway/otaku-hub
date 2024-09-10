@@ -1,8 +1,8 @@
-# Otaku-Covers
+# Otaku-Hub
 Create simple cards with anime cover and information on it.
 
 
-[Otaku Covers](https://shanmukhisaway.github.io/Otaku-Covers/)
+[Otaku Covers](https://shanmukhisaway.github.io/otaku-hub/)
 
 
 To do:
